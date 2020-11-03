@@ -1,9 +1,24 @@
-**React Native Spring ScrollView**！
+# React Native Spring ScrollView
 
-This is a fork of [react-native-spring-scrollview](https://github.com/bolan9999/react-native-spring-scrollview).
+This is a short-term maintenance fork of [react-native-spring-scrollview](https://github.com/bolan9999/react-native-spring-scrollview) for 
+Sportsbook V2. It looks like the original library has been abandoned by its authors.
 
-**React Native Spring ScrollView V2** is a high performance cross-platform  native bounces ScrollView for React Native.(iOS & Android) It is easy to support pulling to refresh and dragging to load more data.
-It is bridged from Native in V2，and resolve a big problem in V1 when Javascript thread is stuck.
+All changes since commit **#d37596f7868bd1c8a792553766baddc025ca8369** are relevant.
+
+## What's Changed
+
+- Fixed deprecation notice for SpringScrollView's "currentlyFocusedField".
+- Fixed incorrect React Native library path in SpringScrollView.
+
+----
+
+_Original README:_
+
+## React Native Spring ScrollView V2
+ 
+React Native Spring ScrollView V2 is a high performance cross-platform  native bounces ScrollView for React Native 
+(iOS & Android). It is easy to support pulling to refresh and dragging to load more data. It is bridged from Native in 
+V2，and resolve a big problem in V1 when Javascript thread is stuck.
 
 ### Features
 
