@@ -19,8 +19,3 @@ It is bridged from Native in V2，and resolve a big problem in V1 when Javascrip
 ### Documentation
 Check out our dedicated documentation page for info about this library, API reference and more:
 [Documentation Reference](https://bolan9999.github.io/react-native-spring-scrollview/#/)
-
-
-### Preview
-![Refreshing](./docs/res/LottieRefreshing.gif)
-![Loading](./docs/res/LottieLoading.gif)
