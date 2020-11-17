@@ -50,6 +50,9 @@ public class SpringScrollView extends ReactViewGroup implements View.OnTouchList
 
     @Override
     protected void onAttachedToWindow() {
+        //update parent size
+        size.width = this.getWidth();
+        size.height = this.getHeight();
         setOnTouchListener(this);
         addOnLayoutChangeListener(this);
         ViewGroup child = (ViewGroup) getChildAt(0);
@@ -59,6 +62,7 @@ public class SpringScrollView extends ReactViewGroup implements View.OnTouchList
             }
             child.addOnLayoutChangeListener(this);
             child.setClipChildren(false);
+            setContentSize(child.getWidth(),child.getHeight()); //update child size
         }
         super.onAttachedToWindow();
     }
